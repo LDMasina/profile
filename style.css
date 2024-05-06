@@ -27,17 +27,15 @@ h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
 }
 
+.introduction {
+  margin-bottom: 40px;
+}
+
 a {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
 }
-
-.introduction {
-  margin-bottom: 40px;
-}
-
-
 
 .btn-purple {
   background-color: #612eb2;
@@ -50,25 +48,23 @@ a:hover {
   color: orangered;
 }
 
-@media (max-width: 960px) {
-  .container {
+.container {
   width: 700px;
   margin: 0px auto;
   background-color: #ffffff;
   text-align: center;
-  }
+}
 
-  .card {
+.card {
   background-color: bisque;
   padding: 40px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   margin-top: 20px;
   text-align: center;
-  }
+}
 
-  .list-inline {
+.list-inline {
   list-style: none;
   padding-left: 0px;
-  }
 }
